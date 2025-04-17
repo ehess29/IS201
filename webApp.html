@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minecraft Mob Quiz</title>
+    <link rel="stylesheet" href="css/webApp.css">
+</head>
+
+<body>
+    <a class="nav" href="index.html">Resume Page</a>
+    <div class="container">
+        <h1>Which Minecraft Mob Are You?</h1>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. What time of day do you prefer?</p>
+                <label><input type="radio" name="q1" value="zombie" /> Night</label>
+                <label><input type="radio" name="q1" value="villager" /> Day</label>
+                <label><input type="radio" name="q1" value="enderman" /> Twilight</label>
+            </div>
+            <div class="question">
+                <p>2. What is your favorite activity?</p>
+                <label><input type="radio" name="q2" value="creeper" /> Sneaking around</label>
+                <label><input type="radio" name="q2" value="skeleton" /> Archery</label>
+                <label><input type="radio" name="q2" value="villager" /> Trading</label>
+            </div>
+            <div class="question">
+                <p>3. What do you do when you're threatened?</p>
+                <label><input type="radio" name="q3" value="creeper" /> Explode with rage</label>
+                <label><input type="radio" name="q3" value="enderman" /> Teleport away</label>
+                <label><input type="radio" name="q3" value="zombie" /> Fight head on</label>
+            </div>
+            <button type="submit">Find Out!</button>
+        </form>
+        <div id="result" class="resultText"></div>
+        <div id="resultImage"></div>
+    </div>
+    <script src="css/script.js"></script>
+    <a class="nav" href="scratch.html">Scratch Page</a>
+</body>
+
+</html>
