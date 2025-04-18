@@ -35,23 +35,23 @@ document.getElementById("quizForm").addEventListener("submit", function(event) {
     switch (resultMob) {
         case "zombie":
             message = "You're a Zombie! Tough and relentless, you’re not afraid to go head first into anything.";
-            imagePath = "../assets/img/zombie.jpg";
+            imagePath = "../assets/zombie.jpg";
             break;
         case "creeper":
             message = "You're a Creeper! You like to sneak up on people and leave a big impression.";
-            imagePath = "../assets/img/creeper.jpg";
+            imagePath = "../assets/creeper.jpg";
             break;
         case "skeleton":
             message = "You're a Skeleton! Cool under pressure and skilled from a distance.";
-            imagePath = "../assets/img/skeleton.jpg";
+            imagePath = "../assets/skeleton.jpg";
             break;
         case "villager":
             message = "You're a Villager! Calm, clever, and full of trades. People count on your wisdom.";
-            imagePath = "../assets/img/villager.jpg";
+            imagePath = "../assets/villager.jpg";
             break;
         case "enderman":
             message = "You're an Enderman! Mysterious and powerful—you’re always in control of your surroundings.";
-            imagePath = "../assets/img/enderman.jpg";
+            imagePath = "../assets/enderman.jpg";
             break;
         default:
             message = "You're a unique mix of mobs—special in your own way!";
