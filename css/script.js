@@ -47,7 +47,7 @@ document.getElementById("quizForm").addEventListener("submit", function(event) {
             break;
         case "villager":
             message = "You're a Villager! Calm, clever, and full of trades. People count on your wisdom.";
-            imagePath = "../assets/img/villager.jpg";
+            imagePath = "../assets/img/villager1.png";
             break;
         case "enderman":
             message = "You're an Enderman! Mysterious and powerful—you’re always in control of your surroundings.";
